@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Test2</title>
+    <style>
+        #container{
+            padding: 8%;
+            background-color: red;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            column-gap: 20px;
+        }
+        p{
+            margin: 0%;
+        }
+        #child1{
+            display: flex;
+            height: 80px;
+            width: 250px;
+            background-color: green;
+            justify-content: left;
+            align-items: flex-start;
+        }
+        #child2{
+            height: 80px;
+            width: 250px;
+            background-color: green;
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+        }
+        #child3{
+            height: 80px;
+            width: 250px;
+            background-color: green;
+            display: flex;
+            justify-content: flex-end;
+            align-items: flex-end;
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <div id="child1">
+            <p>Child 1</p>
+        </div>
+        <div id="child2">
+            <p>Child 2</p>
+        </div>
+        <div id="child3">
+            <p>Child 3</p>
+        </div>
+    </div>
+</body>
+</html>
